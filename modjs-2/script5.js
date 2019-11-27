@@ -1,8 +1,7 @@
-const checkForSpam = function(string) {
-  let words = string.split(" ");
-  let value = "spam" && "sale";
-  for (const item of words) {
-    if (item === value) {
+let checkForSpam = function(str) {
+  let string = str.toLowerCase().split(` `);
+  for (const word of string) {
+    if (word.includes(`spam`) || word.includes(`sale`)) {
       return true;
     }
   }
