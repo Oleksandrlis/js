@@ -141,5 +141,3 @@ import users from "./module.js";
 //     .sort();
 // };
 
-// console.log(getSortedUniqueSkills(users));
-// // [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud`]
